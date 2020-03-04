@@ -12,7 +12,7 @@
 * W pliku w którym należy użyć __logger'a__
 
 ```python
-from debug import log
+from .debug import log
 ```
 
 * Możliwe użycie 
