@@ -38,9 +38,9 @@ log.error('Message')
 
 |Date       | Time         | Log level | PID  | Thread ID | FileName      | FuncName | Message  |
 |-----------|--------------|-----------|------|-----------|---------------|----------|----------|
-|2020-03-04 | 19:42:04,789 | ERROR     | 5473 | Thread-2  | testLogger.py | logInfo: | I'm there|
-|2020-03-04|19:42:04,791|INFO|5473|Thread-1|testLogger.py|logInfo:|I'm there|
-|2020-03-04|19:42:04,791|WARNING|5473|Thread-2|testLogger.py|logInfo:|I'm there|
+|2020-03-04 | 19:42:04,789 | ERROR     | 5473 |MainThread | testLogger.py | logInfo: | I'm there|
+|2020-03-04|19:42:04,791   |INFO       |5473  |Thread-1   |testLogger.py  |logInfo:  |I'm there |
+|2020-03-04|19:42:04,791   |WARNING    |5473  |Thread-2   |testLogger.py  |logInfo:  |I'm there |
 
 For more information:
 [Logger configruation](https://docs.python.org/3/library/logging.html)
